@@ -1,12 +1,17 @@
 *a:link{
     color: black;
 }
+body{
+    background-color: rgb(212, 207, 132);
+}
 /*====================== header============== */
 .container1{
-    margin: 0px;
-    pad: 0px;
+    /* margin: 0px;
+    padding: 0px; */
     display: flex;
     height: 100px;
+    position: fixed;
+    width: 1550px;
 }
 .iteam1,.iteam2{
     background-color: beige;
@@ -29,6 +34,7 @@ h3{
 }
 .container2{
     display: flex;
+    padding-top: 100px;
 }
 .para{
     flex: 2;
@@ -46,7 +52,7 @@ h3{
     padding: 20px;
 }
 .container4{
-    background-color: rgb(180, 250, 15);
+    background-color: beige;
     height: 50px;
     display: flex;
     justify-content: center;
